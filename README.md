@@ -28,6 +28,6 @@ For each stage, the input will be downsampled by a 2x2 2D-CNN Layer with stride=
 Please be aware of your input sizes at each stage.  
 
 ## Evalutation
-The CMT model is evalutated by MNIST handwritten dataset, and reached val_acc of 0.9892 at epoch=4.  
+The CMT model is evalutated by MNIST handwritten dataset, and reached val_acc of 0.9892 at epoch=5.  
 Details are shown in CMT_Demo.ipynb.  
 
