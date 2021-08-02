@@ -11,7 +11,7 @@ import tensorflow
 from tf_CMT.model import CMT_Model
 
 model = CMT_Model(Block_num     = [3,12], # Number of CMT_Blocks in each stage
-                  K             = 2,      # HyperParam to reduce the calculation of self-attention to O(N^2/k^2)
+                  K             = 2,      # HyperParam to reduce the complexity of self-attention to O(N^2/k^2)
                   n_heads       = 4,      # Number of heads
                   head_dim      = 256,    # The latent dimension of self-attention
                   filters       = 256,    # Number of filters of CNNs
